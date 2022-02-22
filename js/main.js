@@ -74,7 +74,6 @@ $(document).ready(function ()
 {
 	const footer_forms = document.getElementById("footer_forms");
 
-
 	function FormCleaner (footer_forms)
 	{
 		let inputs = footer_forms.getElementsByTagName('input');

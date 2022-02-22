@@ -7,8 +7,7 @@
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
 	/*________AllPaddingContainer________*/
-	.container,
-	.container-fluid {padding: 0px 30px;}
+	.container {padding: 0px 30px;}
 
 	.navbar {padding: 30px 0px 0px 0px;}
 
@@ -186,8 +185,7 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
 	/*________AllPaddingContainer________*/
-	.container,
-	.container-fluid {padding: 0px 60px;}
+	.container {padding: 0px 60px;}
 
 	.navbar {padding: 30px 0px 0px 0px;}
 
@@ -313,7 +311,7 @@
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
 	/*________AllPaddingContainer________*/
-	.container, .container-fluid {padding: 0px 90px;}
+	.container {padding: 0px 90px;}
 
 	.header_content {padding: 250px 0px 70px 0px;}
 
@@ -462,8 +460,7 @@
 // X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
 	/*________AllPaddingFixed________*/
-	.container, 
-	.container-fluid {padding: 0px 120px;}
+	.container {padding: 0px 120px;}
 
 	.navbar {padding: 50px 0px 0px 0px;}
 
@@ -668,5 +665,10 @@
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {
+	.container-fluid {padding: 0;}
 
+	.container-fluid {
+		max-width: 1200px;
+		margin: auto!important;
+	}
 }
