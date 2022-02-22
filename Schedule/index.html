@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="engl">
+<head>
+	<meta charset="utf-8">
+	<title>Schedule</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<style type="text/css">
+		#array_value {
+			flex-direction: column;
+			height: 100%;
+			width: 50px;
+		}
+
+		#array_value,
+		#array_index {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 0;
+			background-color: black;
+		}
+
+		#array_index {
+			width: 100%;
+			height: 50px;
+			margin: 0;
+		}
+
+		#array_value li, 
+		#array_index li { color: #fff;}
+
+		#array_colum {
+			display: flex;
+			flex-direction: row;
+			align-items: flex-end;
+			justify-content: space-between;
+			height: 100%;
+		}
+		#array_colum div {width: 30px;}
+	</style>
+	<div style="background-color: gray; height: 500px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-1">
+					<ul id="array_value"></ul>
+				</div>
+				<div class="col-md-11" style="padding: 0;">
+					<div id="array_colum"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-1">
+					
+				</div>
+				<ul id="array_index" class="col-md-11">
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
